@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Core\PokeApiClient.Application\PokeApiClient.Application.csproj" />
+    <ProjectReference Include="..\..\..\..\PokeApiClient.Infrastructure.DynamoDB\PokeApiClient.Infrastructure.DynamoDB.csproj" />
+    <ProjectReference Include="..\..\Client\PokeApiClient.Blazor\PokeApiClient.Blazor.csproj" />
+  </ItemGroup>
+
+</Project>
